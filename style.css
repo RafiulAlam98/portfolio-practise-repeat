@@ -1,0 +1,67 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header-container{
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+
+    background-position: bottom right;
+    background-color: rgb(245, 235, 215);
+  }
+
+  .navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  .list-container{
+    display: flex;
+    align-items: center;
+  }
+
+  li{
+    margin: 16px;
+    list-style-type: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .primary-btn{
+    background-color: tomato;
+    padding: 12px 24px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 4px;
+  }
+
+  .banner-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+  }
+
+  .banner-content{
+    max-width: 500px;
+  }
+
+  .banner-img{
+    max-width: 400px;
+    margin-bottom: -6px;
+  }
+
+  .technology-section{
+    background-color: aliceblue;
+  }
